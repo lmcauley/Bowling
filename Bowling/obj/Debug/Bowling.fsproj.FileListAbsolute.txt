@@ -1,0 +1,8 @@
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling\bin\Debug\Bowling.exe.config
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling\bin\Debug\Bowling.XML
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling\bin\Debug\Bowling.exe
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling\bin\Debug\Bowling.pdb
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling\bin\Debug\FSharp.Core.dll
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling\bin\Debug\FSharp.Core.xml
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling\obj\Debug\Bowling.exe
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling\obj\Debug\Bowling.pdb

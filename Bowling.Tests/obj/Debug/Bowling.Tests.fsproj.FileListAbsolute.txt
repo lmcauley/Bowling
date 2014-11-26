@@ -1,0 +1,15 @@
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\Bowling.Tests.exe.config
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\Bowling.Tests.XML
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\Bowling.Tests.exe
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\Bowling.Tests.pdb
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\Bowling.exe
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\FSharp.Core.dll
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\FsUnit.NUnit.dll
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\nunit.framework.dll
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\Bowling.pdb
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\Bowling.xml
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\FSharp.Core.xml
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\bin\Debug\nunit.framework.xml
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\obj\Debug\Bowling.Tests.fsprojResolveAssemblyReference.cache
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\obj\Debug\Bowling.Tests.exe
+f:\lmcauley\documents\visual studio 2013\Projects\Bowling\Bowling.Tests\obj\Debug\Bowling.Tests.pdb
