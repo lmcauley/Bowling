@@ -66,11 +66,10 @@ module ``Roll Method`` =
 
   type ``When having a perfect game`` () =
     [<Test>]
-    member this.``Score Should Be Thirty`` () =
+    member this.``Score Should Be Three Hundred`` () =
 
-        let rolls =
-            seq{1..12} |> Seq.map (fun _ -> (10,0)) |> List.ofSeq
-
+        let rolls = List.append (seq{1..10} |> Seq.map (fun _ -> (10,0)) |> List.ofSeq) [(10,10)]
+        
         let result = Game.CalculateScore rolls
 
-        result |> should equal 60
+        result |> should equal 300
