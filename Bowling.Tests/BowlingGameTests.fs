@@ -12,6 +12,65 @@ module ``Roll Method`` =
         
     [<Test>]
     member this.``Score Should Be Zero`` () =
-        let actual = Game.roll 0
+        let rolls = []
 
-        actual |> should equal (0)
+        let actual = Game.CalculateScore rolls
+
+        actual |> should equal 0
+
+  type ``When knocking down all singles`` () =
+    [<Test>]
+    member this.``Score Should Be Twenty`` () =
+
+        let rolls =
+            [(1,1);(1,1);(1,1);(1,1);(1,1);(1,1);(1,1);(1,1);(1,1);(1,1);]
+
+        let result = Game.CalculateScore rolls
+
+        result |> should equal (20)
+
+
+  type ``When getting a spare`` () =
+    [<Test>]
+    member this.``Score Should Be Thirteen`` () =
+
+        let rolls =
+            [(5,5);(1,1)]
+
+        let result = Game.CalculateScore rolls
+
+        result |> should equal 13
+
+
+  type ``When getting a strike`` () =
+    [<Test>]
+    member this.``Score Should Be Thirty`` () =
+
+        let rolls =
+            [(1,1);(1,1);(1,1);(1,1);(10,0);(1,1);(1,1);(1,1);(1,1);(1,1);]
+
+        let result = Game.CalculateScore rolls
+
+        result |> should equal 30
+
+  type ``When getting a turkey`` () =
+    [<Test>]
+    member this.``Score Should Be Thirty`` () =
+
+        let rolls =
+            seq{1..3} |> Seq.map (fun _ -> (10,0)) |> List.ofSeq
+
+        let result = Game.CalculateScore rolls
+
+        result |> should equal 60
+
+  type ``When having a perfect game`` () =
+    [<Test>]
+    member this.``Score Should Be Thirty`` () =
+
+        let rolls =
+            seq{1..12} |> Seq.map (fun _ -> (10,0)) |> List.ofSeq
+
+        let result = Game.CalculateScore rolls
+
+        result |> should equal 60
